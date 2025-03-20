@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+</head>
+<body>
+    <!-- Add an ordered list with roman numerals -->
+     <h2>Ordered List</h2>
+     <ol type="I">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Oranges</li>
+        <li>Grapes</li>
+        <li>Watermelon</li>
+     </ol>
+
+      <!-- Add external Image -->
+       <h2>External Image</h2>
+       <img src="https://images.pexels.com/photos/28898122/pexels-photo-28898122/free-photo-of-detailed-half-moon-against-black-night-sky.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="A picture of the moon">
+
+
+    <!--Add a table of 5 contacts with; name, address, mobile and emails-->
+    <h2>Contact List Table</h2>
+    <table border="2">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+
+        <tr>
+            <td>Liam Carter</td>
+            <td>124 Maplewood Ave, Springfield</td>
+            <td>+12245673847</td>
+            <td>liam@bro.com</td>
+        </tr>
+
+        <tr>
+            <td>Sophia Bennett</td>
+            <td>302 Ocean View Blvd, Sydney</td>
+            <td>+617364664876</td>
+            <td>sophia@bro.com</td>
+        </tr>
+
+        <tr>
+            <td>Ethan Walker</td>
+            <td>17 Cherry Blossom Lane, Toronto</td>
+            <td>+1864315536</td>
+            <td>ethan@bro.com</td>
+        </tr>
+    </table>
+
+    <!-- Add a registration Form -->
+     <h2>Registration form</h2>
+     <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a password" required>
+        <br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+
+        <!--Dropdown-->
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+
+         <!-- Radio Buttons -->
+         <label>Favourite colour:</label>
+         <input type="radio" name="colour" value="red" required>Red
+         <input type="radio" name="colour" value="green" required>Green
+         <input type="radio" name="colour" value="blue" required>Blue
+         <br>
+         
+         <!-- Checkboxes -->
+         <label>Hobbies:</label>
+         <input type="checkbox" name="hobbies" value="reading">Reading
+         <input type="checkbox" name="hobbies" value="swimming">Swimming
+         <input type="checkbox" name="hobbies" value="sleeping">Sleeping
+         <br>
+         
+         <!-- Submit Button -->
+         <button type="submit">Submit</button>
+
+     </form>
+
+
+</body>
+</html>
